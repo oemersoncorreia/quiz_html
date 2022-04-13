@@ -17,7 +17,7 @@ File: app.js --> Edit Result text and text Questions.
 <br><br>
 ## Authors
 
-* **Emerson Correia**  - [emerson-correia-silva](https://github.com/oemersoncorreia)
+* **Emerson Correia**  - [oemersoncorreia](https://github.com/oemersoncorreia)
 
 ## License
 
