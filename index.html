@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Learning Agility Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Quiz Learning Agility" name="description" />
+    <meta content="D" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <!-- Quiz Css -->
+    <link href="quiz/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-layout="horizontal" data-topbar="dark">
+
+    <div class="container-fluid">
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            <!-- ============================================================== -->
+            <!-- Content -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="page-title mb-0 font-size-18">LEARNING AGILITY TEST</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12 text-center">
+                          <div class="home-wrapper">
+
+                            <div class="row justify-content-center">
+                              <div class="col-sm-4">
+                                <div>
+                                  <h2>Learning Agility Test<h2/>
+                                  <br>
+                                </div>
+                                <div class="maintenance-img">
+                                  <img src="assets/images/maintenance.png" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                              </div>
+                            </div>
+                            <br><br>
+                            <div id="quiz"> <!-- RESULT -->
+
+                            <h3 class="mt-5"><p id="question"></p></h3> <!-- Question TEXT -->
+                              <br>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card card-body text-center">
+                                              <p class="card-text"></p><button id="btn0" type="button" class="btn btn-primary btn-lg btn-block waves-effect waves-light mb-1"><span id="choice0"></span></button>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 ">
+                                      <div class="card card-body text-center">
+                                            <p class="card-text"></p><button id="btn1" type="button" class="btn btn-primary btn-lg btn-block waves-effect waves-light mb-1"><span id="choice1"></span></button>
+                                      </div>
+                                </div>
+
+                              <div class="col-lg-4">
+                                <div class="card card-body text-center">
+                                    <p class="card-text"></p><button id="btn2" type="button" class="btn btn-primary btn-lg btn-block waves-effect waves-light mb-1"><span id="choice2"></span></button>
+                                </div>
+                              </div>
+                            </div>
+
+                                <!-- end row -->
+
+                                <hr style="margin-top: 50px">
+                                <p id="progress"></p><br>
+                            </div>
+                          </div>
+                            </div>
+                        </div>
+                  </div>
+        <!-- end container -->
+
+                </div>
+                <!-- End Page-content -->
+
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+    </div>
+    <!-- end container-fluid -->
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+
+    <!-- App Quiz js -->
+    <script src="quiz/quiz.js"></script>
+    <script src="quiz/question.js"></script>
+    <script src="quiz/app.js"></script>
+
+</body>
+
+</html>
